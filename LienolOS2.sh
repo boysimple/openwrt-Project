@@ -19,7 +19,7 @@ curl -fsSL  https://raw.githubusercontent.com/firkerword/KPR/main/cus_config.yam
 sed -i 's/192.168.1.1/10.10.10.1/g' package/base-files/files/bin/config_generate
 sed -i 's/192.168.$/10.10.$/g' package/base-files/files/bin/config_generate
 sed -i 's/OpenWrt/MightyActionX/g' package/base-files/files/bin/config_generate
-sed -i 's/bootstrap/argonne/g' ./feeds/luci/modules/luci-base/root/etc/config/luci
+sed -i 's/bootstrap/argon/g' ./feeds/luci/modules/luci-base/root/etc/config/luci
 
 # rm -rf ./package/diy-ziyong/adguardhome
 rm -rf ./feeds/luci/themes/luci-theme-argon
